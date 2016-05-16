@@ -3,14 +3,23 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<title>Barry's Guessing Game for Fullstack</title>
 	</head>
 	<body>
-		<h1 id="game-title">Guess the Number!</h1>
-		<form>
-			<label for="user-guess">Pick a Number</label>
-			<input type="text" id="user-guess" placeholder="Guess a number from 1-100">
-			<button type="button" id="submit-guess">Submit</button>
-			<button type="button">Reset</button>
-
+		<div class="container text-center">
+			<h1 id="game-title">Guess the Number!</h1>
+		</div>
+		<div class="container jumbotron text-center">
+			<form>
+				<h2>Pick a Number</h2>
+				<div class="row bottom-buffer:10px">
+					<input type="text" id="user-guess" placeholder="Guess a number from 1-100">
+				</div>
+				<div class="row">
+					<a href = "#" class="btn btn-large btn-success row-2" id="submit-guess">Submit</a>
+					<a href = "#" class="btn btn-large btn-success row-2">Reset</a>
+				</div>
+			</form>
+		</div>
 	</body>
 </html>
